@@ -46,7 +46,7 @@ to know the Finnish syllable division and vowel harmony rules.
 
 With this module you can converse like a pro with Finnish kids.
 
-In addition to the standard "keyword" I<kontti> you can use
+In addition to the standard "secret key" I<kontti> you can use
 any other word that according to Finnish syllable division rules
 starts with CVCC (consonant-vowel-consonant-constant) syllable,
 like for example I<kirppu>, I<linssi>, I<portti>, I<salkku>, I<turkki>.
@@ -56,7 +56,7 @@ Give the keyword as the second argument.
 
 T‰ll‰ modulilla voit k‰‰nt‰‰ suomea kontiksi.
 
-"Avainsanan" I<kontti> sijasta voit k‰ytt‰‰ mit‰ tahansa sanaa joka
+"Salaisen avaimen" I<kontti> sijasta voit k‰ytt‰‰ mit‰ tahansa sanaa joka
 suomeksi tavutettuna alkaa KVKK-tavulla (konsonantti-vokaali-konsonantti-
 konsonantti), kuten esimerkiksi I<kirppu>, I<linssi>, I<portti>, I<salkku>,
 I<turkki>.  Anna avainsana toisena argumenttina.
@@ -132,7 +132,7 @@ use strict;
 
 use vars qw($VERSION @ISA @EXPORT_OK);
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 
 require Exporter;
 @ISA = qw(Exporter);
